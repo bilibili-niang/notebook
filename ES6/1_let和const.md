@@ -35,17 +35,17 @@ ESnext:'下一代js语言'
 >>1.没有预解析,不存在变量提升<br>
 >>在代码块内,只要let定义变量,在之前使用,都会报错<br>
 >>必须先定义完了再使用,如:
->>```html
->><!--补充:-->
->><script >
->>let a=12;
->>function fn(){
->>    alert(a)//TDZ暂时性死区
->>    let a=5;//TDZ结束
->>}
->>fn();
->></script>
->>```
+```html
+<!--补充:-->
+<script >
+let a=12;
+function fn(){
+    alert(a)//TDZ暂时性死区
+    let a=5;//TDZ结束%%%%
+}
+fn();
+</script>
+```
 >>2.在同一个作用域里不能重复定义变量<br>
 >>3.for 循环,for循环里面是父级作用域,里面又一个
 >
