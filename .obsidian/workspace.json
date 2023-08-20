@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ES6/13_proxy.md",
+                "file": "面试/03_面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ES6/13_proxy.md",
+                "file": "面试/03_面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ES6/13_proxy.md",
+                "file": "面试/03_面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ES6/13_proxy.md"
+                "file": "面试/03_面试题.md"
               }
             }
           }
@@ -148,6 +149,9 @@
   },
   "active": "757ad069e23c7fee",
   "lastOpenFiles": [
+    "实习/hel-micro.md.md",
+    "Pasted image 20230816150504.png",
+    "ES6/13_proxy.md",
     "ES6/15_模块化.md",
     "ES6/9_类.md",
     "ES6/3_字符串模板及其它使用.md",
