@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "nuxt/01.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "nuxt/01.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "nuxt/01.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/03_面试题.md"
+                "file": "nuxt/01.md.md"
               }
             }
           }
@@ -147,8 +147,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "757ad069e23c7fee",
+  "active": "88b5a3d87f7f548e",
   "lastOpenFiles": [
+    "nuxt/images/Pasted image 20230821003043.png",
+    "nuxt/images",
+    "面试/03_面试题.md",
+    "nuxt/01.md.md",
+    "nuxt",
     "实习/hel-micro.md.md",
     "Pasted image 20230816150504.png",
     "ES6/13_proxy.md",
@@ -159,7 +164,6 @@
     "ES6/1_let和const.md",
     "electron/electron_1.md",
     "面试/01.md",
-    "面试/03_面试题.md",
     "面试/02_opacity.md"
   ]
 }
