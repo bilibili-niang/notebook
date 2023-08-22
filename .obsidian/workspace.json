@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81e23e95b9559f6d",
+        "id": "7771db9daddcdc5c",
         "type": "tabs",
         "children": [
           {
-            "id": "757ad069e23c7fee",
+            "id": "161f8284513af1ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nuxt/01.md.md",
+                "file": "uniapp/01.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nuxt/01.md.md",
+                "file": "uniapp/01.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nuxt/01.md.md",
+                "file": "uniapp/01.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nuxt/01.md.md"
+                "file": "uniapp/01.md.md"
               }
             }
           }
@@ -147,12 +147,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "88b5a3d87f7f548e",
+  "active": "161f8284513af1ad",
   "lastOpenFiles": [
+    "uniapp/images/Pasted image 20230822211526.png",
+    "uniapp/images/Pasted image 20230822210056.png",
+    "uniapp/images",
+    "uniapp/01.md.md",
+    "go/01.md.md",
+    "uniapp",
+    "hadoop/08_集群配置.md",
+    "nuxt/01.md.md",
     "nuxt/images/Pasted image 20230821003043.png",
     "nuxt/images",
     "面试/03_面试题.md",
-    "nuxt/01.md.md",
     "nuxt",
     "实习/hel-micro.md.md",
     "Pasted image 20230816150504.png",

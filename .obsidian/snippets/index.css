@@ -1,0 +1,20 @@
+
+
+span.cm-inline-code {
+    background-color: rgba(124, 24, 35, .2) !important;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+    border-left-color: aqua !important;
+}
+
+.cm-header {
+    color: rgba(147, 181, 207, 1) !important;
+    border-bottom: 1px solid rgba(147, 181, 207, 1);
+
+}
