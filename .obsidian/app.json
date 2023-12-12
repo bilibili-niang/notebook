@@ -1,6 +1,7 @@
 {
-  "promptDelete": false,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./images",
-  "showLineNumber": true
+  "newFileFolderPath": "/",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./img",
+  "alwaysUpdateLinks": true
 }

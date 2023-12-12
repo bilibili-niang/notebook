@@ -1,16 +1,13 @@
 ---
 title: Bootstrap4代码模板
-
 author: icestone
 tags:
-- Bootstrap
-
-categories:  
-  - 直接上代码:&lt;!doctype html&gt;&lt;html lang="en"&gt;&lt;head&gt;    &lt;!-- Required meta tags --&gt;    &lt;meta charset="utf-8"&gt;    &lt;!--为了保证在移动端能够正常显示--&gt;    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fi  
-
+  - Bootstrap
+categories:
+  - 直接上代码:&lt;!doctype html&gt;&lt;html lang="en"&gt;&lt;head&gt;    &lt;!-- Required meta tags --&gt;    &lt;meta charset="utf-8"&gt;    &lt;!--为了保证在移动端能够正常显示--&gt;    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fi
 created: Sun Sep 06 2020 00:00:00 GMT+0800 (中国标准时间)
 ---
-直接上代码:
+%% 直接上代码 %%:
 
     
     <!doctype html>

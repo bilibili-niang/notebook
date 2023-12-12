@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7771db9daddcdc5c",
+        "id": "a29a78bf257f878d",
         "type": "tabs",
         "children": [
           {
-            "id": "161f8284513af1ad",
+            "id": "b9fbdc4ce99f419d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "uniapp/01.md.md",
+                "file": "react/01.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "uniapp/01.md.md",
+                "file": "react/01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "uniapp/01.md.md",
+                "file": "react/01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "uniapp/01.md.md"
+                "file": "react/01.md"
+              }
+            }
+          },
+          {
+            "id": "1bd442f9d3e010cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -135,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,30 +156,47 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "161f8284513af1ad",
+  "active": "b9fbdc4ce99f419d",
   "lastOpenFiles": [
+    "python/03.md",
+    "react/01.md",
+    "react",
+    "python/02_了解数据分析常用类库.md",
+    "python/03_文件的打开.md",
+    "work/01.md",
+    "python/img/Pasted image 20230924235941.png",
+    "README.md",
+    "python/img",
+    "python/01.md",
+    "uniapp/01.md.md",
+    "work",
+    "vue/28_async-await.md",
+    "markdown_note.md",
+    "vueCli/vueCliCreate.md",
+    "vue3.0/04_provide和inject.md.md",
+    "vue3.0/05_suspense.md.md",
+    "vue/webpack中的webpack.config.js的配置.md",
+    "springMVC/04_springMVC.md",
+    "springMVC/01_课程.md",
+    "sass_note/1.什么是sass.md",
+    "flink/1_传统的数据处理架构.md",
+    "flink/2_flink的主要特点.md",
+    "走的坑/vue中本地存储及去重.md",
+    "走的坑/vueBug.md",
+    "走的坑/04_filter.md",
+    "androidStudio/04_Button事件处理.md",
+    "androidStudio/01.md",
+    "figma/01.md.md",
+    "blog.icestone.top/upload_951f49b8dd2754d1b8215beb93fa70a0.png.md",
+    "Pasted image 20230816150504.png",
+    "figma",
+    "uniapp/images/Pasted image 20230831002626.png",
     "uniapp/images/Pasted image 20230822211526.png",
     "uniapp/images/Pasted image 20230822210056.png",
     "uniapp/images",
-    "uniapp/01.md.md",
-    "go/01.md.md",
     "uniapp",
-    "hadoop/08_集群配置.md",
-    "nuxt/01.md.md",
     "nuxt/images/Pasted image 20230821003043.png",
     "nuxt/images",
-    "面试/03_面试题.md",
-    "nuxt",
-    "实习/hel-micro.md.md",
-    "Pasted image 20230816150504.png",
-    "ES6/13_proxy.md",
-    "ES6/15_模块化.md",
-    "ES6/9_类.md",
-    "ES6/3_字符串模板及其它使用.md",
-    "ES6/2_解构赋值.md",
-    "ES6/1_let和const.md",
-    "electron/electron_1.md",
-    "面试/01.md",
-    "面试/02_opacity.md"
+    "nuxt"
   ]
 }
