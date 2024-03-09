@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a29a78bf257f878d",
+        "id": "3f2a4ab3c7469ed7",
         "type": "tabs",
         "children": [
           {
-            "id": "b9fbdc4ce99f419d",
+            "id": "9a6c8abec5979c7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/01.md",
+                "file": "electron/electron_1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/01.md",
+                "file": "electron/electron_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/01.md",
+                "file": "electron/electron_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/01.md"
+                "file": "electron/electron_1.md"
               }
             }
           },
@@ -158,10 +158,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b9fbdc4ce99f419d",
+  "active": "9a6c8abec5979c7b",
   "lastOpenFiles": [
-    "python/03.md",
+    "flink/2_flink的主要特点.md",
+    "苹果cms/01_查看当前页面配置.md",
+    "实习/Pasted image 20230816150504.png.md",
+    "实习/hel-micro.md.md",
+    "bootstrap/Bootstrap3代码模板.md",
+    "bootstrap/Bootstrap4代码模板.md",
+    "git/04_多人开发.md",
+    "面试/05_vue面试题.md.md",
+    "面试/04nodejs面试.md.md",
+    "面试/03_面试题.md",
+    "面试/offer.md.md",
+    "面试/02_opacity.md",
+    "面试/01.md",
+    "electron/electron_1.md",
     "react/01.md",
+    "python/03.md",
     "react",
     "python/02_了解数据分析常用类库.md",
     "python/03_文件的打开.md",
@@ -176,20 +190,6 @@
     "markdown_note.md",
     "vueCli/vueCliCreate.md",
     "vue3.0/04_provide和inject.md.md",
-    "vue3.0/05_suspense.md.md",
-    "vue/webpack中的webpack.config.js的配置.md",
-    "springMVC/04_springMVC.md",
-    "springMVC/01_课程.md",
-    "sass_note/1.什么是sass.md",
-    "flink/1_传统的数据处理架构.md",
-    "flink/2_flink的主要特点.md",
-    "走的坑/vue中本地存储及去重.md",
-    "走的坑/vueBug.md",
-    "走的坑/04_filter.md",
-    "androidStudio/04_Button事件处理.md",
-    "androidStudio/01.md",
-    "figma/01.md.md",
-    "blog.icestone.top/upload_951f49b8dd2754d1b8215beb93fa70a0.png.md",
     "Pasted image 20230816150504.png",
     "figma",
     "uniapp/images/Pasted image 20230831002626.png",

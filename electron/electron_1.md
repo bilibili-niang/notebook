@@ -317,6 +317,7 @@ win.on("ready-to-show", function () {
     win.loadFile('index.html');
 })
 ```
+上面代码中如果没有设置x,y的值，那么会在显示器的center打开
 
 这里监听了`ready-to-show`,在这个阶段才调用加载`index.html`
 
