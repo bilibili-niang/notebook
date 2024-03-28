@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a6c8abec5979c7b",
+            "id": "dcc232b3fe8799a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "electron/electron_1.md",
+                "file": "面试/03_面试题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2017dd88d1bd3f2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/01.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "electron/electron_1.md",
+                "file": "面试/03_面试题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "electron/electron_1.md",
+                "file": "面试/03_面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "electron/electron_1.md"
+                "file": "面试/03_面试题.md"
               }
             }
           },
@@ -158,8 +170,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a6c8abec5979c7b",
+  "active": "dcc232b3fe8799a8",
   "lastOpenFiles": [
+    "typescript/01.md",
+    "面试/03_面试题.md",
+    "面试/04nodejs面试.md.md",
+    "flutter/01_dart.md.md",
+    "flutter",
+    "面试/05_vue面试题.md.md",
+    "electron/electron_1.md",
     "flink/2_flink的主要特点.md",
     "苹果cms/01_查看当前页面配置.md",
     "实习/Pasted image 20230816150504.png.md",
@@ -167,13 +186,9 @@
     "bootstrap/Bootstrap3代码模板.md",
     "bootstrap/Bootstrap4代码模板.md",
     "git/04_多人开发.md",
-    "面试/05_vue面试题.md.md",
-    "面试/04nodejs面试.md.md",
-    "面试/03_面试题.md",
     "面试/offer.md.md",
     "面试/02_opacity.md",
     "面试/01.md",
-    "electron/electron_1.md",
     "react/01.md",
     "python/03.md",
     "react",
@@ -188,8 +203,6 @@
     "work",
     "vue/28_async-await.md",
     "markdown_note.md",
-    "vueCli/vueCliCreate.md",
-    "vue3.0/04_provide和inject.md.md",
     "Pasted image 20230816150504.png",
     "figma",
     "uniapp/images/Pasted image 20230831002626.png",
