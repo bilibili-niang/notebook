@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "前端工具/03.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2017dd88d1bd3f2c",
+            "id": "808a5eb74d73d5db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/01.md",
+                "file": "前端工具/01_cgz.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "前端工具/01_cgz.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/03_面试题.md",
+                "file": "前端工具/01_cgz.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/03_面试题.md"
+                "file": "前端工具/01_cgz.md.md"
               }
             }
           },
@@ -170,10 +171,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dcc232b3fe8799a8",
+  "active": "808a5eb74d73d5db",
   "lastOpenFiles": [
-    "typescript/01.md",
+    "前端工具/02.prettierrc.md.md",
+    "前端工具/03.md.md",
+    "taro/02.md.md",
+    "前端工具/01_cgz.md.md",
+    "taro/01.md.md",
+    "taro",
     "面试/03_面试题.md",
+    "前端工具",
+    "typescript/01.md",
     "面试/04nodejs面试.md.md",
     "flutter/01_dart.md.md",
     "flutter",
@@ -196,13 +204,8 @@
     "python/03_文件的打开.md",
     "work/01.md",
     "python/img/Pasted image 20230924235941.png",
-    "README.md",
     "python/img",
-    "python/01.md",
-    "uniapp/01.md.md",
     "work",
-    "vue/28_async-await.md",
-    "markdown_note.md",
     "Pasted image 20230816150504.png",
     "figma",
     "uniapp/images/Pasted image 20230831002626.png",
@@ -211,7 +214,6 @@
     "uniapp/images",
     "uniapp",
     "nuxt/images/Pasted image 20230821003043.png",
-    "nuxt/images",
-    "nuxt"
+    "nuxt/images"
   ]
 }
