@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工具/03.md.md",
+                "file": "前端工具/04.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,9 +23,29 @@
             "id": "808a5eb74d73d5db",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "65ff58418849233d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工具/01_cgz.md.md",
+                "file": "前端工具/05_一些响应规范.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35b969a35a5d4b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工具/05_前端的统一错误处理.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 247.5
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -98,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工具/01_cgz.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工具/01_cgz.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "前端工具/01_cgz.md.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,10 +189,17 @@
   },
   "active": "808a5eb74d73d5db",
   "lastOpenFiles": [
-    "前端工具/02.prettierrc.md.md",
-    "前端工具/03.md.md",
-    "taro/02.md.md",
+    "前端工具/05_一些响应规范.md.md",
+    "前端工具/05_前端的统一错误处理.md.md",
+    "前端工具/04.md.md",
+    "前端工具/img/Pasted image 20240403104806.png",
+    "前端工具/img/Pasted image 20240403104742.png",
+    "前端工具/img",
+    "前端工具/03_useSearchTable.md.md",
     "前端工具/01_cgz.md.md",
+    "androidStudio/05_EditText.md",
+    "前端工具/02.prettierrc.md.md",
+    "taro/02.md.md",
     "taro/01.md.md",
     "taro",
     "面试/03_面试题.md",
@@ -197,12 +220,7 @@
     "面试/offer.md.md",
     "面试/02_opacity.md",
     "面试/01.md",
-    "react/01.md",
-    "python/03.md",
     "react",
-    "python/02_了解数据分析常用类库.md",
-    "python/03_文件的打开.md",
-    "work/01.md",
     "python/img/Pasted image 20230924235941.png",
     "python/img",
     "work",
@@ -213,7 +231,6 @@
     "uniapp/images/Pasted image 20230822210056.png",
     "uniapp/images",
     "uniapp",
-    "nuxt/images/Pasted image 20230821003043.png",
-    "nuxt/images"
+    "nuxt/images/Pasted image 20230821003043.png"
   ]
 }

@@ -1,8 +1,13 @@
 {
-  "accentColor": "#ffffff",
+  "accentColor": "#000000",
   "translucency": false,
   "enabledCssSnippets": [
     "index"
   ],
-  "baseFontSize": 14
+  "baseFontSize": 18,
+  "theme": "system",
+  "interfaceFontFamily": "PingFang SC",
+  "textFontFamily": "PingFang SC",
+  "monospaceFontFamily": "PingFang SC",
+  "baseFontSizeAction": true
 }
