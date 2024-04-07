@@ -1,10 +1,10 @@
 ---
 title: 什么是JMM
-
 author: IceStone
-created: '2020-04-18T04:24:14.273Z'
-tags: jvm
-
+created: 2020-04-18T04:24:14.273Z
+tags:
+  - jvm
+  - Java基础
 ---
 
 # 什么是JMM

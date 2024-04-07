@@ -9,5 +9,6 @@
   "interfaceFontFamily": "PingFang SC",
   "textFontFamily": "PingFang SC",
   "monospaceFontFamily": "PingFang SC",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "cssTheme": "Blue Topaz"
 }

@@ -1,3 +1,10 @@
+---
+tags:
+  - less
+  - 前端
+  - 继承
+---
+
 html:
 ```html
 <!DOCTYPE html>

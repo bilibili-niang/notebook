@@ -1,3 +1,9 @@
+---
+tags:
+  - 前端
+  - webpack
+---
+
 1.什么是异步加载模块?  
 同步加载: import $ from 'jquery';  
 例如: 在index.js中导入了10个模块, 那么只要index.js被执行, 就会一次性将10个模块加载进来   

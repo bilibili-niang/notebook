@@ -4,55 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "3f2a4ab3c7469ed7",
+        "id": "1fc02ecfb39f0d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "dcc232b3fe8799a8",
+            "id": "2ac5fa95a008d2db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工具/04.md.md",
+                "file": "前端工具/06_深色,浅色的theme变量.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "808a5eb74d73d5db",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "65ff58418849233d",
+            "id": "2c4f1687e41e0b85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工具/05_一些响应规范.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35b969a35a5d4b3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端工具/05_前端的统一错误处理.md.md",
+                "file": "前端工具/06_深色,浅色的theme变量.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端工具/06_深色,浅色的theme变量.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端工具/06_深色,浅色的theme变量.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端工具/06_深色,浅色的theme变量.md.md"
+              }
             }
           },
           {
@@ -187,50 +170,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "808a5eb74d73d5db",
+  "active": "2ac5fa95a008d2db",
   "lastOpenFiles": [
-    "前端工具/05_一些响应规范.md.md",
-    "前端工具/05_前端的统一错误处理.md.md",
-    "前端工具/04.md.md",
-    "前端工具/img/Pasted image 20240403104806.png",
-    "前端工具/img/Pasted image 20240403104742.png",
-    "前端工具/img",
-    "前端工具/03_useSearchTable.md.md",
-    "前端工具/01_cgz.md.md",
-    "androidStudio/05_EditText.md",
-    "前端工具/02.prettierrc.md.md",
-    "taro/02.md.md",
-    "taro/01.md.md",
-    "taro",
-    "面试/03_面试题.md",
-    "前端工具",
-    "typescript/01.md",
-    "面试/04nodejs面试.md.md",
-    "flutter/01_dart.md.md",
-    "flutter",
-    "面试/05_vue面试题.md.md",
-    "electron/electron_1.md",
-    "flink/2_flink的主要特点.md",
-    "苹果cms/01_查看当前页面配置.md",
-    "实习/Pasted image 20230816150504.png.md",
-    "实习/hel-micro.md.md",
-    "bootstrap/Bootstrap3代码模板.md",
-    "bootstrap/Bootstrap4代码模板.md",
-    "git/04_多人开发.md",
-    "面试/offer.md.md",
-    "面试/02_opacity.md",
+    "vue/webpack中的webpack.config.js的配置.md",
+    "前端工具/06_深色,浅色的theme变量.md.md",
+    "hadoop/08_集群配置.md",
     "面试/01.md",
+    "面试/05_vue面试题.md.md",
+    "前端工具/03_useSearchTable.md.md",
+    "面试/offer.md.md",
+    "实习/2024年",
+    "实习/2023年/需求.md.md",
+    "实习/2023年/前端开发规范.md.md",
+    "实习/2023年/Pasted image 20230816150504.png.md",
+    "实习/2023年/hel-micro.md.md",
+    "实习/2023年/05.md.md",
+    "实习/2023年/04.md.md",
+    "实习/2023年/03_jeecg.md.md",
+    "实习/2023年/02.md.md",
+    "实习/2023年/01.md.md",
+    "实习/2023年/images/Pasted image 20230627164357.png",
+    "实习/2023年/images/Pasted image 20230627164302.png",
+    "实习/2023年/images/Pasted image 20230627164241.png",
+    "实习/2023年/images/Pasted image 20230616164927.png",
+    "实习/2023年/images/Pasted image 20230627164147.png",
+    "实习/2023年/images/Pasted image 20230616164802.png",
+    "实习/2023年/images/Pasted image 20230627164130.png",
+    "实习/2023年/images/Pasted image 20230616164503.png",
+    "实习/2023年/images/Pasted image 20230616164432.png",
+    "实习/2023年/images/Pasted image 20230616164338.png",
+    "实习/2023年/images",
+    "实习/2023年",
+    "实习/01.md.md",
+    "python/01.md",
+    "onenote笔记/什么是JMM.md",
+    "前端工具/04_一些类型定义.md.md",
+    "前端工具/05_前端的统一错误处理.md.md",
+    "前端工具/05_一些响应规范.md.md",
+    "markdown_note.md",
+    "README.md",
+    "2024-04-03.md",
+    "未命名.canvas",
+    "others/2022年实训ppt.md",
+    "前端工具/img",
+    "taro",
+    "前端工具",
+    "flutter",
     "react",
-    "python/img/Pasted image 20230924235941.png",
     "python/img",
-    "work",
-    "Pasted image 20230816150504.png",
-    "figma",
-    "uniapp/images/Pasted image 20230831002626.png",
-    "uniapp/images/Pasted image 20230822211526.png",
-    "uniapp/images/Pasted image 20230822210056.png",
-    "uniapp/images",
-    "uniapp",
-    "nuxt/images/Pasted image 20230821003043.png"
+    "work"
   ]
 }
