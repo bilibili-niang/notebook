@@ -654,6 +654,241 @@ export default defineComponent({
 [ant-design-vue](https://www.antdv.com/components/table-cn)
 项目中使用的table是基于这个封装的,传参基本一致
 
+#### 自定义搜索选项
+
+##### 筛选条件的传入
+
+像是这里的search表单,是通过props来配置的:
+![[img/Pasted image 20240407100708.png]]
+
+`table`组件引入filter:
+```tsx
+...
+<Filter filter={props.filter} onSearch={onSearch} />
+...
+```
+`filter`的代码:
+```tsx
+import { computed, defineComponent, type PropType, reactive, ref } from 'vue'  
+import './styles/grid.scss'  
+import './styles/filter.scss'  
+  
+import type {  
+  DatePickerProps,  
+  InputNumberProps,  
+  InputProps,  
+  SelectProps,  
+  TimePickerProps,  
+  TimeRangePickerProps  
+} from '@kacat/ui'  
+import { Button, Icon } from '@kacat/ui'  
+  
+import Input from './widgets/input'  
+import InputNumber from './widgets/input-number'  
+import RangeNumber from './widgets/range-number'  
+import Select from './widgets/select'  
+import RangePicker from './widgets/range-picker'  
+import DatePicker from './widgets/date-picker'  
+import TimePicker from './widgets/time-picker'  
+import TimeRangePicker from './widgets/time-range-picker'  
+import { QueryDic } from './utils'  
+  
+const widgets = {  
+  input: Input,  
+  'input-number': InputNumber,  
+  'range-number': RangeNumber,  
+  select: Select,  
+  'date-picker': DatePicker,  
+  'range-picker': RangePicker,  
+  'time-picker': TimePicker,  
+  'time-range-picker': TimeRangePicker  
+}  
+  
+type FilterWidgetType = keyof typeof widgets  
+  
+type FilterWidgetConfig = {  
+  input: InputProps  
+  'input-number': InputNumberProps  
+  'range-number': { [key: string]: any }  
+  select: SelectProps  
+  'date-picker': DatePickerProps  
+  'range-picker': DatePickerProps  
+  'time-picker': TimePickerProps  
+  'time-range-picker': TimeRangePickerProps  
+}  
+  
+type FlexCol =  
+  | 1  
+  | 2  
+  | 3  
+  | 4  
+  | 5  
+  | 6  
+  | 7  
+  | 8  
+  | 9  
+  | 10  
+  | 11  
+  | 12  
+  | 13  
+  | 14  
+  | 15  
+  | 16  
+  | 17  
+  | 18  
+  | 19  
+  | 20  
+  | 21  
+  | 22  
+  | 23  
+  | 24  
+  
+export type FilterItem<T> = keyof T extends infer U  
+  ? U extends keyof T  
+    ? {  
+        key: string  
+        label: string  
+        type?: U  
+        widget?: any  
+        config?: T[U]  
+        flex?: FlexCol  
+        fixed?: boolean  
+        // func?: QueryDic | keyof typeof QueryDic  
+      }  
+    : never  
+  : never  
+  
+export type FilterDefine = {  
+  list: FilterItem<FilterWidgetConfig>[]  
+}  
+  
+export default defineComponent({  
+  name: '',  
+  props: {  
+    filter: {  
+      type: Object as PropType<FilterDefine>  
+    }  
+  },  
+  emits: {  
+    search: (payload: any) => true  
+  },  
+  setup(props, { emit }) {  
+    const isFullDose = ref(false)  
+    const listRef = computed(() => {  
+      const list = props.filter?.list || []  
+  
+      if (isFullDose.value) {  
+        console.log('展示全部')  
+        return list  
+      }  
+      const l: FilterDefine['list'] = list.filter((item) => !!item.fixed)  
+      list.map((item) => {  
+        console.log(item)  
+        console.log(item.fixed)  
+      })  
+      if (l.length === 0) {  
+        return list.slice(0, 1)  
+      }      return l  
+    })  
+  
+    const state = reactive<Record<string, any>>({})  
+  
+    const getWidget = (item: FilterItem<FilterWidgetConfig>) => {  
+      const { key, label, type, config, widget } = item  
+      const targetWidget = widget ?? (type ? widgets[type] : null)  
+      if (!targetWidget) {  
+        return (  
+          <div class="btp__filter-widget">  
+            <label style="color:orange">找不到控件 "{type}" 请检查配置</label>  
+          </div>  
+        )  
+      }  
+  
+      const onChange = (value: any) => {  
+        state[key] = value  
+      }  
+      return <targetWidget label={label} config={config} value={state[key]} onChange={onChange} />  
+    }  
+  
+    const onSearch = () => {  
+      /**  
+       * 查询参数,需要emit给上级  
+       */  
+      const payload: Record<string, any> = {}  
+      Object.keys(state).forEach((key) => {  
+        const value = state[key]  
+        const filterDefine = props.filter?.list.find((item) => item.key === key)  
+        if (filterDefine?.type === 'range-picker') {  
+          payload[`${key}_${QueryDic.DATE_GE}`] = value[0]  
+          payload[`${key}_${QueryDic.DATE_LE}`] = value[1]  
+        } else {  
+          payload[key] = value  
+        }  
+      })  
+      emit('search', payload)  
+    }  
+  
+    const onReset = () => {  
+      for (const key in state) {  
+        delete state[key]  
+      }  
+      onSearch()  
+    }  
+  
+    return () => {  
+      return (  
+        <div class={['btp__filter btp-grid', isFullDose.value && '--full']}>  
+          {listRef.value.map((item) => {  
+            return <div class={['btp__filter-item', `btp-grid-col-${item.flex ?? 6}`]}>{getWidget(item)}</div>  
+          })}  
+          <div class="btp__filter-search">  
+            <Button  
+              class="btp__filter-btn"  
+              icon={<Icon name="search" style="vertical-align:middle;" />}  
+              type="primary"  
+              onClick={onSearch}  
+            >  
+              搜索  
+            </Button>  
+            <Button class="btp__filter-btn --reset" onClick={onReset}>  
+              重置  
+            </Button>  
+            {(isFullDose.value ? true : listRef.value.length < (props.filter?.list.length ?? 0)) && (  
+              <a                class="btp__filter-fold"  
+                href="javascript:void(0);"  
+                onClick={() => (isFullDose.value = !isFullDose.value)}  
+              >  
+                <Icon name="down" />  
+                {isFullDose.value ? '收起' : '全量筛选'}  
+              </a>  
+            )}  
+          </div>  
+        </div>  
+      )  
+    }  
+  }  
+})
+```
+注意这里的渲染,主要是通过:`listRef`
+![[img/Pasted image 20240407102942.png]]
+##### 筛选项的控制
+这里可以看到有控制筛选条件的多少,这里是通过`isFullDose`的值来进行计算`listRef`的:
+```tsx
+const listRef = computed(() => {  
+  const list = props.filter?.list || []  
+  if (isFullDose.value) {  
+    return list  
+  }  
+  const l: FilterDefine['list'] = list.filter((item) => !!item.fixed)  
+  if (l.length === 0) {  
+    return list.slice(0, 1)  
+  }  return l  
+})
+```
+像是上代码中,如果展示所有筛选条件,通过`props.filter?.list`中每个item的`fixed`来控制
+
+
+
 
 
 
