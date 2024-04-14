@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工具/07_.prettierrc.md.md",
+                "file": "go/01.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 247.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工具/07_.prettierrc.md.md",
+                "file": "go/01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工具/07_.prettierrc.md.md",
+                "file": "go/01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工具/07_.prettierrc.md.md"
+                "file": "go/01.md"
               }
             }
           },
@@ -180,8 +181,10 @@
   },
   "active": "2ac5fa95a008d2db",
   "lastOpenFiles": [
-    "前端工具/06_深色,浅色的theme变量.md.md",
+    "go/img/Pasted image 20240414233950.png",
+    "go/img",
     "前端工具/07_.prettierrc.md.md",
+    "前端工具/06_深色,浅色的theme变量.md.md",
     "前端工具/03_useSearchTable.md.md",
     "前端工具/img/Pasted image 20240407102942.png",
     "前端工具/img/Pasted image 20240407100708.png",
@@ -218,14 +221,12 @@
     "前端工具/05_一些响应规范.md.md",
     "markdown_note.md",
     "README.md",
-    "2024-04-03.md",
     "未命名.canvas",
     "前端工具/img",
     "taro",
     "前端工具",
     "flutter",
     "react",
-    "python/img",
-    "work"
+    "python/img"
   ]
 }
