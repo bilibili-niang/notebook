@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/01.md",
+                "file": "javascript深入浅出/01_.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5,
-    "collapsed": true
+    "width": 247.5
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/01.md",
+                "file": "javascript深入浅出/01_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "go/01.md",
+                "file": "javascript深入浅出/01_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/01.md"
+                "file": "javascript深入浅出/01_.md"
               }
             }
           },
@@ -181,8 +180,8 @@
   },
   "active": "2ac5fa95a008d2db",
   "lastOpenFiles": [
-    "前端工具/06_深色,浅色的theme变量.md.md",
     "go/01.md",
+    "前端工具/06_深色,浅色的theme变量.md.md",
     "go/img/Pasted image 20240414233950.png",
     "go/img",
     "前端工具/07_.prettierrc.md.md",
