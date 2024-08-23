@@ -3,5 +3,6 @@
   "newFileFolderPath": "/",
   "newLinkFormat": "relative",
   "attachmentFolderPath": "./imges",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
