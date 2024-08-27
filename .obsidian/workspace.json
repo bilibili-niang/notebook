@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md",
+                "file": "work/2024/文杉科技/log.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md",
+                "file": "work/2024/文杉科技/log.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md"
+                "file": "work/2024/文杉科技/log.md.md"
               }
             }
           },
@@ -170,10 +171,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "88b5a3d87f7f548e",
+  "active": "908dd20daabc5249",
   "lastOpenFiles": [
-    "work/2024/文杉科技/log.md.md",
     "work/2024/文杉科技/1.md.md",
+    "work/2024/文杉科技/log.md.md",
     "JSP_note/1_tomcat目录.md",
     "work/01.md",
     "前端工具/06_深色,浅色的theme变量.md.md",
