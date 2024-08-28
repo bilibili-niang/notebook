@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md",
+                "file": "测试数据/01_ikun语录.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 247.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md",
+                "file": "测试数据/01_ikun语录.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md",
+                "file": "测试数据/01_ikun语录.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md"
+                "file": "测试数据/01_ikun语录.md.md"
               }
             }
           },
@@ -173,8 +174,10 @@
   },
   "active": "908dd20daabc5249",
   "lastOpenFiles": [
-    "work/2024/文杉科技/1.md.md",
     "work/2024/文杉科技/log.md.md",
+    "测试数据/01_ikun语录.md.md",
+    "测试数据",
+    "work/2024/文杉科技/1.md.md",
     "JSP_note/1_tomcat目录.md",
     "work/01.md",
     "前端工具/06_深色,浅色的theme变量.md.md",
@@ -215,10 +218,8 @@
     "实习/2023年",
     "实习/01.md.md",
     "python/01.md",
-    "onenote笔记/什么是JMM.md",
     "未命名.canvas",
     "前端工具/img",
-    "taro",
-    "前端工具"
+    "taro"
   ]
 }
