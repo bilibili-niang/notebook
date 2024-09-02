@@ -4,8 +4,8 @@
   "enabledCssSnippets": [
     "index"
   ],
-  "baseFontSize": 15,
-  "theme": "system",
+  "baseFontSize": 16,
+  "theme": "obsidian",
   "interfaceFontFamily": "PingFang SC",
   "textFontFamily": "PingFang SC",
   "monospaceFontFamily": "PingFang SC",
