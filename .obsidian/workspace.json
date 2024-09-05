@@ -6,6 +6,7 @@
       {
         "id": "1fc02ecfb39f0d6c",
         "type": "tabs",
+        "dimension": 41.28686327077748,
         "children": [
           {
             "id": "2c4f1687e41e0b85",
@@ -55,12 +56,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "48898a3743e17544",
         "type": "tabs",
+        "dimension": 58.71313672922251,
         "children": [
           {
             "id": "73e205b2c7f44d3d",
@@ -124,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 247.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -140,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md",
+                "file": "work/2024/文杉科技/1.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md",
+                "file": "work/2024/文杉科技/1.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/2024/文杉科技/log.md.md"
+                "file": "work/2024/文杉科技/1.md.md"
               }
             }
           },
@@ -201,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 433.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,16 +213,15 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "publish:发布更改": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "d74abf0f54a523c4",
+  "active": "2c4f1687e41e0b85",
   "lastOpenFiles": [
     "测试数据/01_ikun语录.md.md",
-    "work/2024/文杉科技/log.md.md",
     "work/2024/文杉科技/1.md.md",
     "dart圣经/01.md.md",
+    "work/2024/文杉科技/log.md.md",
     "dart圣经",
     "测试数据",
     "JSP_note/1_tomcat目录.md",
