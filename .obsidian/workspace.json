@@ -6,7 +6,7 @@
       {
         "id": "1fc02ecfb39f0d6c",
         "type": "tabs",
-        "dimension": 41.28686327077748,
+        "dimension": 53.540587219343685,
         "children": [
           {
             "id": "2c4f1687e41e0b85",
@@ -43,25 +43,14 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "efd668b703d1eed6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "测试数据/01_ikun语录.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "48898a3743e17544",
         "type": "tabs",
-        "dimension": 58.71313672922251,
+        "dimension": 46.459412780656315,
         "children": [
           {
             "id": "73e205b2c7f44d3d",
@@ -69,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试数据/01_ikun语录.md.md",
+                "file": "dart圣经/01.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -142,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md",
+                "file": "dart圣经/01.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md",
+                "file": "dart圣经/01.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/2024/文杉科技/1.md.md"
+                "file": "dart圣经/01.md.md"
               }
             }
           },
@@ -216,12 +204,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2c4f1687e41e0b85",
+  "active": "73e205b2c7f44d3d",
   "lastOpenFiles": [
-    "测试数据/01_ikun语录.md.md",
-    "work/2024/文杉科技/1.md.md",
-    "dart圣经/01.md.md",
+    "flutter/01_dart.md.md",
     "work/2024/文杉科技/log.md.md",
+    "测试数据/01_ikun语录.md.md",
+    "onenote笔记/帮助命令_whatis,apropos.md",
+    "onenote笔记/vim搜索和搜索替换命令.md",
+    "onenote笔记/vim自定义快捷键.md",
+    "onenote笔记/10-shell编程.md",
+    "onenote笔记/1.静态内部类.md",
+    "onenote笔记/-ld指令.md",
+    "dart圣经/01.md.md",
+    "work/2024/文杉科技/1.md.md",
     "dart圣经",
     "测试数据",
     "JSP_note/1_tomcat目录.md",
@@ -247,12 +242,6 @@
     "实习/2023年/需求.md.md",
     "实习/2023年/前端开发规范.md.md",
     "实习/2023年/Pasted image 20230816150504.png.md",
-    "实习/2023年/hel-micro.md.md",
-    "实习/2023年/05.md.md",
-    "实习/2023年/04.md.md",
-    "实习/2023年/03_jeecg.md.md",
-    "实习/2023年/02.md.md",
-    "实习/2023年/01.md.md",
     "实习/2023年/images/Pasted image 20230627164357.png",
     "实习/2023年/images/Pasted image 20230627164302.png",
     "实习/2023年/images/Pasted image 20230627164241.png",
@@ -262,7 +251,6 @@
     "实习/2023年/images/Pasted image 20230627164130.png",
     "实习/2023年/images",
     "实习/2023年",
-    "实习/01.md.md",
     "未命名.canvas",
     "前端工具/img"
   ]
