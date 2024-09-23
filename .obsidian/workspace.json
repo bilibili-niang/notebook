@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/2024/文杉科技/3.测试环境url.md",
+                "file": "work/2024/文杉科技/log.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript深入浅出/01_.md",
+                "file": "work/2024/文杉科技/1.轮椅使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,14 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/2024/文杉科技/log.md",
+                "file": "work/2024/文杉科技/2.不同仓库的代码合并.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "48898a3743e17544",
@@ -114,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -191,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,17 +203,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cab79014e562583a",
+  "active": "2c4f1687e41e0b85",
   "lastOpenFiles": [
-    "测试数据/1.ikun语录.md",
-    "work/2024/文杉科技/log.md",
     "work/2024/文杉科技/3.测试环境url.md",
+    "work/2024/文杉科技/1.轮椅使用.md",
+    "测试数据/1.ikun语录.md",
     "javascript深入浅出/01_.md",
-    "work/01.md",
     "work/2024/文杉科技/2.不同仓库的代码合并.md",
+    "work/2024/文杉科技/log.md",
+    "work/01.md",
     "追的剧/1.追完的.md",
     "追的剧",
-    "work/2024/文杉科技/1.轮椅使用.md",
     "工作/2024/1.color-scheme.md",
     "工作/2024",
     "面试/04nodejs面试.md.md",
