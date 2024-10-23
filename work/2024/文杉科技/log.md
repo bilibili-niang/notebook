@@ -934,6 +934,7 @@ http://localhost:3100/deck/custom-pages
 2.修改微店前台用户自定义海报的页面选择器[目标:10/23]
 3.修改微店前台下单相关逻辑[目标:10/24]
 
+![images/img.png](images/img.png)
 
 
 
