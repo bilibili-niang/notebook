@@ -1,5 +1,6 @@
 [文章地址](https://www.bilibili.com/read/cv25519544/)
 
+tsx事件冒泡
 ```tsx
 import {withModifiers} from 'vue'
 
