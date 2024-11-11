@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微信小程序开发/微信小程序_13,本地生活案例.md",
+                "file": "work/2024/文杉科技/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "微信小程序_13,本地生活案例"
+              "title": "log"
+            }
+          },
+          {
+            "id": "87db45f3577e6f43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/2024/文杉科技/3.测试环境url.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.测试环境url"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 309.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -196,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/2024/文杉科技/2.不同仓库的代码合并.md"
+                "file": "work/2024/文杉科技/3.测试环境url.md"
               },
               "icon": "lucide-list",
-              "title": "2.不同仓库的代码合并 的大纲"
+              "title": "3.测试环境url 的大纲"
             }
           },
           {
@@ -233,22 +248,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e942a01e39ee6fe6",
+  "active": "87db45f3577e6f43",
   "lastOpenFiles": [
+    "work/2024/文杉科技/log.md",
+    "work/2024/文杉科技/1.轮椅使用.md",
+    "测试数据/1.ikun语录.md",
+    "work/2024/文杉科技/2.不同仓库的代码合并.md",
+    "微信小程序开发/微信小程序_13,本地生活案例.md",
     "work/2024/1.color-scheme.md",
     "走的坑/渐变色的使用.md",
     "work/2024/文杉科技/3.测试环境url.md",
-    "微信小程序开发/微信小程序_13,本地生活案例.md",
     "微信小程序开发/微信小程序_1,基础配置及其开发工具.md",
     "走的坑/tsx中阻止事件冒泡.md",
     "走的坑/vue中本地存储及去重.md",
     "走的坑/windows11文件共享时出现扩展性错误.md",
-    "work/2024/文杉科技/1.轮椅使用.md",
-    "测试数据/1.ikun语录.md",
-    "work/2024/文杉科技/2.不同仓库的代码合并.md",
     "work/2024/文杉科技/未命名.md",
     "面试/03_面试题.md",
-    "work/2024/文杉科技/log.md",
     "javascript深入浅出/01_.md",
     "work/01.md",
     "追的剧/1.追完的.md",
