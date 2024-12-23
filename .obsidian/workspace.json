@@ -53,14 +53,32 @@
             "id": "4e4c8905dc176d37",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "react/01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01"
+            }
+          },
+          {
+            "id": "54b4ec56eb808a08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/2024/文杉科技/log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "log"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -215,25 +233,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "87db45f3577e6f43",
+  "active": "54b4ec56eb808a08",
   "lastOpenFiles": [
+    "work/2024/文杉科技/3.测试环境url.md",
+    "react/01.md",
+    "webpack/10_nrm镜像管理工具.md",
+    "webpack/09_webpack异步加载模块.md",
+    "bun/01_安装和使用.md",
+    "测试数据/1.ikun语录.md",
+    "bun",
     "work/2024/文杉科技/log.md",
+    "work/2024/文杉科技/4.安全区域代码.md",
+    "work/2024/文杉科技/2.不同仓库的代码合并.md",
+    "测试数据/02.死一样的抽过.md",
     "dart圣经/01.md.md",
     "markdown_note.md",
-    "work/2024/文杉科技/4.安全区域代码.md",
-    "测试数据/02.死一样的抽过.md",
     "work/2024/文杉科技/1.轮椅使用.md",
-    "work/2024/文杉科技/2.不同仓库的代码合并.md",
     "外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Rdd5quzM-1646140114875)(/images/EUKbTaT9q5lwkseGhvjR1K0a.png).md",
     "外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Rdd5quzM-1646140114875)(/images",
     "外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-Rdd5quzM-1646140114875)(",
     "vue3.0/03_customRef.md.md",
-    "work/2024/文杉科技/3.测试环境url.md",
     "测试数据/星星与我们.md",
     "node/01_什么是node.md",
     "work/2024/文杉科技/底部安全区域.md",
     "work/2024/文杉科技/images/img.png",
-    "测试数据/1.ikun语录.md",
     "nuxt/01.md.md",
     "微信小程序开发/微信小程序_13,本地生活案例.md",
     "work/2024/1.color-scheme.md",
@@ -242,10 +265,6 @@
     "走的坑/tsx中阻止事件冒泡.md",
     "走的坑/vue中本地存储及去重.md",
     "走的坑/windows11文件共享时出现扩展性错误.md",
-    "面试/03_面试题.md",
-    "javascript深入浅出/01_.md",
-    "work/01.md",
-    "追的剧/1.追完的.md",
     "追的剧",
     "工作/2024",
     "dart圣经",
@@ -254,7 +273,6 @@
     "work/2024",
     "log",
     "go/img/Pasted image 20240414233950.png",
-    "go/img",
     "前端工具/img/Pasted image 20240407102942.png",
     "前端工具/img/Pasted image 20240407100708.png",
     "实习/2023年/images/Pasted image 20230627164357.png",
