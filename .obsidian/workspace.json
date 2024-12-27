@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "测试数据/02.死一样的抽过.md",
+                "file": "work/2024/文杉科技/2.不同仓库的代码合并.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02.死一样的抽过"
+              "title": "2.不同仓库的代码合并"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/2024/文杉科技/log.md",
+                "file": "work/2024/文杉科技/2.不同仓库的代码合并.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "2.不同仓库的代码合并"
             }
           },
           {
@@ -75,6 +75,16 @@
               },
               "icon": "lucide-file",
               "title": "log"
+            }
+          },
+          {
+            "id": "c666bb8eaffb18d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ],
@@ -134,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "a35d895c978c9ebc",
@@ -150,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/2024/文杉科技/3.测试环境url.md",
+                "file": "work/2024/文杉科技/log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3.测试环境url"
+              "title": "log 的反向链接列表"
             }
           },
           {
@@ -169,12 +180,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/2024/文杉科技/3.测试环境url.md",
+                "file": "work/2024/文杉科技/log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3.测试环境url"
+              "title": "log 的出链列表"
             }
           },
           {
@@ -187,7 +198,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -213,7 +224,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -221,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,17 +247,17 @@
   },
   "active": "54b4ec56eb808a08",
   "lastOpenFiles": [
+    "work/2024/文杉科技/log.md",
+    "work/2024/文杉科技/2.不同仓库的代码合并.md",
+    "测试数据/02.死一样的抽过.md",
     "work/2024/文杉科技/3.测试环境url.md",
+    "work/2024/文杉科技/4.安全区域代码.md",
     "react/01.md",
     "webpack/10_nrm镜像管理工具.md",
     "webpack/09_webpack异步加载模块.md",
     "bun/01_安装和使用.md",
     "测试数据/1.ikun语录.md",
     "bun",
-    "work/2024/文杉科技/log.md",
-    "work/2024/文杉科技/4.安全区域代码.md",
-    "work/2024/文杉科技/2.不同仓库的代码合并.md",
-    "测试数据/02.死一样的抽过.md",
     "dart圣经/01.md.md",
     "markdown_note.md",
     "work/2024/文杉科技/1.轮椅使用.md",
