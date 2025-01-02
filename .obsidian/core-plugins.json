@@ -16,15 +16,15 @@
   "editor-status": true,
   "bookmarks": true,
   "markdown-importer": false,
-  "zk-prefixer": false,
-  "random-note": false,
+  "zk-prefixer": true,
+  "random-note": true,
   "outline": true,
   "word-count": true,
   "slides": true,
   "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
-  "publish": false,
+  "publish": true,
   "sync": false,
   "properties": true
 }

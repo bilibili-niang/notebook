@@ -1,7 +1,6 @@
 ### EditText
 
 属性:
-![](./images/20.png)
 
 ##### `inputType`:
 
